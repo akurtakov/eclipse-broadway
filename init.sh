@@ -24,5 +24,5 @@ export BROADWAY_DISPLAY=:5
 export GDK_BACKEND=broadway
 echo "Starting eclipse..."
 echo '*** Please connect to http://'`grep $HOSTNAME /etc/hosts | awk '{print $1}'`' using your web browser ***'
-java -jar eclipse/plugins/org.eclipse.equinox.launcher_1.3.200.N20160208-2000.jar -data ~/ws
+java -jar eclipse/plugins/org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar -debug -consolelog -data ~/ws
 /bin/bash
